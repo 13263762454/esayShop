@@ -8,7 +8,7 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println("test git hook");
+        System.out.println("test git hooks");
     }
 
 }
