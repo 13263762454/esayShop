@@ -14,7 +14,7 @@ this dennis esayShop
 │   │   │       ├── Model（模型，接口数据结构模型）
 │   │   │       ├── Service（务层）
 │   │   │       │   ├── impl（服务抽象层）
-│   │   │       │       └── *impl.java（服务抽象类）
+│   │   │       │   │   └── *impl.java（服务抽象类）
 │   │   │       │   └── *service.java（服务实例类）
 │   │   │       ├── Util（工具、集成工具类）
 │   │   │       ├── Common（公共业务）
