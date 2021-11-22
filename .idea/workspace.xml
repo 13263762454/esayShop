@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c58fb1d-f271-4ee4-a4b9-701506cb0ad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/esayShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/esayShop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Service/impl/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.42766497" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -64,17 +64,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EasyShopApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EasyShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="esayShop" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.web.easyshop.EasyShopApplication" />
@@ -126,7 +115,9 @@
       <workItem from="1629863749615" duration="4401000" />
       <workItem from="1629875985733" duration="652000" />
       <workItem from="1629948777788" duration="6205000" />
-      <workItem from="1629969138468" duration="2970000" />
+      <workItem from="1629969138468" duration="3465000" />
+      <workItem from="1637295673232" duration="599000" />
+      <workItem from="1637566214935" duration="4664000" />
     </task>
     <servers />
   </component>
