@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.*;
+
 @RestController
 @RequestMapping("web")
 public class Home {
@@ -37,6 +39,13 @@ public class Home {
                     int i = 0;
                     while(i <= 10){
                         Thread.sleep(1000);
+//                        BufferedWriter out = new BufferedWriter(new FileWriter("runoob.txt"));
+//                        out.write("菜鸟教程");
+//                        out.close();
+                        FileOutputStream out = new FileOutputStream(new File("runoob.txt"));
+                        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(out, "utf-8");
+                        outputStreamWriter.append("hello");
+                        outputStreamWriter.append("\r\n");
                         name = shopName + i;
                         System.out.println(shopName + ":售票" + i);
                         System.out.println(name);
