@@ -42,10 +42,13 @@ public class Home {
 //                        BufferedWriter out = new BufferedWriter(new FileWriter("runoob.txt"));
 //                        out.write("菜鸟教程");
 //                        out.close();
-                        FileOutputStream out = new FileOutputStream(new File("runoob.txt"));
-                        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(out, "utf-8");
-                        outputStreamWriter.append("hello");
-                        outputStreamWriter.append("\r\n");
+                        FileOutputStream out = new FileOutputStream(new File("runoob.txt"), true);
+                        byte buffer[] = new String("hello world!\r\n").getBytes();
+                        out.write(buffer, 0, buffer.length);
+                        System.out.println(buffer);
+//                        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(out, "utf-8");
+//                        outputStreamWriter.append("hello");
+//                        outputStreamWriter.append("\r\n");
                         name = shopName + i;
                         System.out.println(shopName + ":售票" + i);
                         System.out.println(name);

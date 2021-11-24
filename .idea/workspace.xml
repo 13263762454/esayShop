@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c58fb1d-f271-4ee4-a4b9-701506cb0ad0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runoob.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runoob.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +117,7 @@
       <workItem from="1629948777788" duration="6205000" />
       <workItem from="1629969138468" duration="3465000" />
       <workItem from="1637295673232" duration="599000" />
-      <workItem from="1637566214935" duration="7096000" />
+      <workItem from="1637566214935" duration="10748000" />
     </task>
     <servers />
   </component>
