@@ -7,7 +7,6 @@
     <list default="true" id="1c58fb1d-f271-4ee4-a4b9-701506cb0ad0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runoob.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runoob.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.42766497" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -117,7 +119,11 @@
       <workItem from="1629948777788" duration="6205000" />
       <workItem from="1629969138468" duration="3465000" />
       <workItem from="1637295673232" duration="599000" />
-      <workItem from="1637566214935" duration="10748000" />
+      <workItem from="1637566214935" duration="11206000" />
+      <workItem from="1638160610685" duration="2343000" />
+      <workItem from="1638242751150" duration="12000" />
+      <workItem from="1638241591170" duration="560000" />
+      <workItem from="1638258191471" duration="567000" />
     </task>
     <servers />
   </component>
@@ -135,5 +141,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
