@@ -1,10 +1,9 @@
 package com.web.easyshop.web.Controller;
 
 import com.web.easyshop.web.Util.Response;
+import com.web.easyshop.web.Vo.Test;
 import lombok.SneakyThrows;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.*;
 
@@ -20,6 +19,15 @@ public class Home {
     )
     {
         return Response.Success("请求成功！", id);
+    }
+
+    @PostMapping("testBody")
+    public <T>Object testBody(
+            @RequestBody Test test
+    )
+    {
+        System.out.println(test);
+        return Response.Success("请求成功！", test);
     }
 
     @RequestMapping("testThred")

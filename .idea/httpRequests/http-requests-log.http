@@ -1,0 +1,233 @@
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三", "age":"18"}
+
+<> 2021-12-14T110522.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三", "age":"18"}
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三", "age":"18"}
+
+<> 2021-12-14T110405.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三", "age":"18"}
+
+<> 2021-12-14T110348.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三"}
+
+<> 2021-12-13T193748.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三"}
+
+<> 2021-12-13T193529.500.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三"}
+
+<> 2021-12-13T192207.500.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三"}
+
+<> 2021-12-13T191953.500.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三"}
+
+<> 2021-12-13T191338.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三"}
+
+<> 2021-12-13T191251.500.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三","age":"89"}
+
+<> 2021-12-13T190722.500.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三","age":"89"}
+
+<> 2021-12-13T190155.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三","age":"89"}
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三","age":"89"}
+
+<> 2021-12-13T190041.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三","age":"89"}
+
+<> 2021-12-13T190000.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=UTF-8
+
+{"name":"张三","age":"89"}
+
+<> 2021-12-13T185410.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Content-Type: application/json
+
+{"name":"blue"}
+
+<> 2021-12-13T185335.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Content-Type: application/json
+
+{
+  "name":"blue"
+}
+
+<> 2021-12-13T185249.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Content-Type: application/json
+
+{
+  "name":"blue"
+}
+
+<> 2021-12-13T185010.200.json
+
+###
+
+POST http://localhost:8080/web/testBody
+Content-Type: application/json
+
+{
+  "name":"blue"
+}
+
+###
+
+GET http://localhost:8080/web/getProduct?id=88
+Accept: application/json
+
+<> 2021-12-13T151727.200.json
+
+###
+
+GET http://localhost:8080/web/getProduct?id=99
+Accept: application/json
+
+<> 2021-12-13T151704.200.json
+
+###
+
+GET http://localhost:8080/web/getProduct?id=99
+Accept: application/json
+
+<> 2021-12-13T151651.200.json
+
+###
+
