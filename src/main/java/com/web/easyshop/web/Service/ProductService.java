@@ -1,4 +1,4 @@
-package com.web.easyshop.web.Services;
+package com.web.easyshop.web.Service;
 
 public interface ProductService {
 

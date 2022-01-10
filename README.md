@@ -10,6 +10,7 @@ this dennis esayShop
 │   │   │   └── api（客户端接口代码，业务层目录以api为例）
 │   │   │       ├── Controller（控制器）
 │   │   │       ├── Dao（数据库抽象接口，mapper，现在使用的mybatis直接写接口类即可，【过去Dao需要写抽象接口和实例类】）
+│   │   │       ├── Vo（客户端数据模型）
 │   │   │       ├── Entity（实体，数据库数据结构实体）
 │   │   │       ├── Model（模型，接口数据结构模型）
 │   │   │       ├── Service（务层）

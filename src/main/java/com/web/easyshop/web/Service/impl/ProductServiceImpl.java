@@ -1,6 +1,6 @@
-package com.web.easyshop.web.Services.impl;
+package com.web.easyshop.web.Service.impl;
 
-import com.web.easyshop.web.Services.ProductService;
+import com.web.easyshop.web.Service.ProductService;
 
 public class ProductServiceImpl implements ProductService {
 

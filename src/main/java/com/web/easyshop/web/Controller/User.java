@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.web.easyshop.web.controller;
 
 import com.web.easyshop.web.dto.UserDto;
@@ -30,5 +31,20 @@ public class User {
         }catch (Exception e){
             return Response.Error(e.getMessage());
         }
+=======
+package com.web.easyshop.web.Controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("User")
+public class User {
+
+    @RequestMapping("getUserInfo")
+    public void getUserInfo()
+    {
+        System.out.println("a");
+>>>>>>> 961f09566ee6eea37e13e8820fd0f894583e371a
     }
 }
