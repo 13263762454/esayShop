@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.web.easyshop.web.mapper.UserMapper">
-    <resultMap id="BaseResultMap" type="com.web.easyshop.web.entity.UserEntity">
+<mapper namespace="com.web.easyshop.web.Mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.web.easyshop.web.Entity.UserEntity">
         <id column="uid" jdbcType="BIGINT" property="uid" />
         <result column="username" jdbcType="VARCHAR" property="username" />
         <result column="password" jdbcType="VARCHAR" property="password" />
@@ -10,7 +10,7 @@
         <result column="isDel" jdbcType="INTEGER" property="is_del" />
     </resultMap>
 
-    <select id="getUserList" resultMap="BaseResultMap">
+    <select id="getUsers" resultMap="BaseResultMap">
         select * from user
     </select>
 

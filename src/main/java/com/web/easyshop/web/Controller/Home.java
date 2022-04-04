@@ -6,6 +6,7 @@ import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.*;
+import java.util.Arrays;
 
 @RestController
 @RequestMapping("web")
@@ -38,7 +39,7 @@ public class Home {
         test("售票口3");
     }
 
-    public void test(String shopName){
+    public void test(final String shopName){
         try{
             new Thread(){
                 @SneakyThrows
