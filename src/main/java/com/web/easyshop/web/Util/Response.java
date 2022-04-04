@@ -1,44 +1,50 @@
 package com.web.easyshop.web.Util;
 
-import com.alibaba.fastjson.JSON;
+import com.web.easyshop.web.Enum.ResultCodeEnum;
+import lombok.Data;
 
 import java.util.HashMap;
 
+@Data
 public class Response {
 
-    public static <T>Object Success(Long code, String message, Object data)
+    public static <T>Object Success(Integer code, String message, Object data)
     {
-        HashMap m = new HashMap();
+        HashMap<String, Object> m = new HashMap<String, Object>();
         m.put("code", code);
         m.put("message", message);
         m.put("data", data);
 
         return m;
+    }
+
+    public static <T>Object Success(ResultCodeEnum resultCodeEnum, Object data) {
+        return Success(resultCodeEnum.getCode(), resultCodeEnum.getMessage(), data);
     }
 
     public static <T>Object Success(Object data)
     {
-        return Success(200L, "success", data);
-    }
-
-    public static <T>Object Success(String message, Object data)
-    {
-        return Success(200L, message, data);
+        return Success(ResultCodeEnum.SUCCESS, data);
     }
 
     public static <T>Object Success(String message)
     {
-        return Success(200L, message, null);
+        return Success(ResultCodeEnum.SUCCESS.getCode(), message, null);
+    }
+
+    public static <T>Object Success(String message, Object data)
+    {
+        return Success(ResultCodeEnum.SUCCESS.getCode(), message, data);
     }
 
     public static <T>Object Success()
     {
-        return Success(200L, "success", null);
+        return Success(ResultCodeEnum.SUCCESS, null);
     }
 
-    public static <T>Object Error(Long code, String message, Object data)
+    public static <T>Object Error(Integer code, String message, Object data)
     {
-        HashMap m = new HashMap();
+        HashMap<String, Object> m = new HashMap<String, Object>();
         m.put("code", code);
         m.put("message", message);
         m.put("data", data);
@@ -46,23 +52,28 @@ public class Response {
         return m;
     }
 
+    public static <T>Object Error(ResultCodeEnum resultCodeEnum, Object data) {
+        return Error(resultCodeEnum.getCode(), resultCodeEnum.getMessage(), data);
+    }
+
     public static <T>Object Error(Object data)
     {
-        return Error(500L, "error", data);
+        return Error(ResultCodeEnum.ERROR, data);
     }
 
-    public static <T>Object Error(Object data, String message)
+    public static <T>Object Error(String message)
     {
-        return Error(500L, message, data);
+        return Error(ResultCodeEnum.ERROR.getCode(), message, null);
     }
 
-    public static <T>Object Error(Long code)
+    public static <T>Object Error(String message, Object data)
     {
-        return Error(code, "error", null);
+        return Success(ResultCodeEnum.ERROR.getCode(), message, data);
     }
 
-    public static <T>Object Error(Long code, String message)
+    public static <T>Object Error()
     {
-        return Error(code, message, null);
+        return Success(ResultCodeEnum.ERROR, null);
     }
+
 }
