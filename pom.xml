@@ -101,6 +101,8 @@
             <artifactId>java-jwt</artifactId>
             <version>3.2.0</version>
         </dependency>
+
+        <!--TEST-->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -115,6 +117,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
+        </dependency>
+
+        <!--devtools热加载配置 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
 
     </dependencies>
@@ -132,6 +141,13 @@
                 <configuration>
                     <source>6</source>
                     <target>6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork><!--必须添加这个配置热加载才会生效-->
                 </configuration>
             </plugin>
         </plugins>

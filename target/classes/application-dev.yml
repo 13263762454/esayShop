@@ -7,3 +7,7 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+  #热部署生效(true为开启，false为不开启，开发者根据喜好选择是否开启)
+  devtools:
+    restart:
+      enabled: true

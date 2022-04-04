@@ -33,6 +33,6 @@ class UserController {
     @RequestMapping("getUserInfo")
     public void getUserInfo()
     {
-        System.out.println("a");
+        System.out.println("m");
     }
 }
