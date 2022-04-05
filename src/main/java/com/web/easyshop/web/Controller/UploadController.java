@@ -42,10 +42,8 @@ public class UploadController {
             // 创建文件名称
             String fileName = UUID.randomUUID() + "."
                     + multipartFile.getContentType().substring(multipartFile.getContentType().lastIndexOf("/") + 1);
-            // 获取到文件的路径信息
-            RequestAttributes requestAttributes = RequestContextHolder.getRequestAttributes();
-            ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttributes;
-            String filePath = servletRequestAttributes.getRequest().getServletContext().getRealPath("/") + fileName;
+            // 设置保存路径
+            String filePath = System.getProperty("user.dir") + "/upload/images/" + fileName;
             // 打印保存路径
             System.out.println(filePath);
             // 保存文件的路径信息

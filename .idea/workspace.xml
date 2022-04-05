@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45b9d3bf-577c-4bdf-9b0b-f15cfa11a74a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/esayShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/esayShop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +58,13 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager" selected="Spring Boot.EasyShopApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +129,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649040843096</updated>
       <workItem from="1649040848257" duration="5534000" />
+      <workItem from="1649129404899" duration="671000" />
+      <workItem from="1649172277730" duration="2215000" />
     </task>
     <servers />
   </component>
