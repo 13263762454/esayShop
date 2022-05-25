@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45b9d3bf-577c-4bdf-9b0b-f15cfa11a74a" name="Default Changelist" comment="">
+    <list default="true" id="45b9d3bf-577c-4bdf-9b0b-f15cfa11a74a" name="Default Changelist" comment="[Update] Perfected upload path">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Util/SnowFlake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/easyshop/SnowFlakeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/esayShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/esayShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +60,39 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Games/qiqu-big-pineapple-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EasyShopApplication">
+  <component name="RunManager" selected="JUnit.SnowFlakeTest.test">
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.easyshop.web.Util.SnowFlake" />
+      <module name="esayShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.easyshop.web.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowflakeIdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.easyshop.web.Util.SnowflakeIdWorker" />
+      <module name="esayShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.easyshop.web.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -101,6 +136,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SnowFlakeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esayShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.easyshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web.easyshop" />
+      <option name="MAIN_CLASS_NAME" value="com.web.easyshop.SnowFlakeTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="esayShop" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.web.easyshop.EasyShopApplication" />
@@ -112,11 +163,17 @@
       <item itemvalue="JUnit.ResultCodeEnumTest.testApiResult" />
       <item itemvalue="JUnit.ResultCodeEnumTest.testResultCodeEnum" />
       <item itemvalue="Spring Boot.EasyShopApplication" />
+      <item itemvalue="JUnit.SnowFlakeTest.test" />
+      <item itemvalue="Application.SnowflakeIdWorker" />
+      <item itemvalue="Application.SnowFlake" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ResultCodeEnumTest.testApiResult" />
+        <item itemvalue="JUnit.SnowFlakeTest.test" />
+        <item itemvalue="Application.SnowFlake" />
+        <item itemvalue="Application.SnowflakeIdWorker" />
         <item itemvalue="JUnit.ResultCodeEnumTest.testResultCodeEnum" />
+        <item itemvalue="JUnit.ResultCodeEnumTest.testApiResult" />
       </list>
     </recent_temporary>
   </component>
@@ -130,8 +187,19 @@
       <updated>1649040843096</updated>
       <workItem from="1649040848257" duration="5534000" />
       <workItem from="1649129404899" duration="671000" />
-      <workItem from="1649172277730" duration="2215000" />
+      <workItem from="1649172277730" duration="2569000" />
+      <workItem from="1649605227332" duration="138000" />
+      <workItem from="1649605392893" duration="23000" />
+      <workItem from="1653492231590" duration="3187000" />
     </task>
+    <task id="LOCAL-00001" summary="[Update] Perfected upload path">
+      <created>1649175333734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649175333734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +216,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Update] Perfected upload path" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update] Perfected upload path" />
   </component>
 </project>
