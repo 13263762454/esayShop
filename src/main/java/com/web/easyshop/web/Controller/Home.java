@@ -1,6 +1,7 @@
 package com.web.easyshop.web.Controller;
 
 import com.web.easyshop.web.Util.Response;
+import com.web.easyshop.web.Util.Rotation;
 import com.web.easyshop.web.Vo.Test;
 import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.*;
@@ -37,6 +38,12 @@ public class Home {
         test("售票口1");
         test("售票口2");
         test("售票口3");
+    }
+
+    @RequestMapping("testRotation")
+    public void testRotation()
+    {
+        System.out.println(Rotation.getIp());
     }
 
     public void test(final String shopName){

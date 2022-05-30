@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45b9d3bf-577c-4bdf-9b0b-f15cfa11a74a" name="Default Changelist" comment="[Update] Perfected upload path">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Util/SnowFlake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Vo/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/web/easyshop/SnowFlakeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/esayShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/esayShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/easyshop/web/Controller/Home.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +55,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.SnowFlakeTest.test">
+  <component name="RunManager" selected="Spring Boot.EasyShopApplication">
     <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.web.easyshop.web.Util.SnowFlake" />
       <module name="esayShop" />
@@ -93,13 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,12 +151,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ResultCodeEnumTest.testApiResult" />
-      <item itemvalue="JUnit.ResultCodeEnumTest.testResultCodeEnum" />
-      <item itemvalue="Spring Boot.EasyShopApplication" />
-      <item itemvalue="JUnit.SnowFlakeTest.test" />
       <item itemvalue="Application.SnowflakeIdWorker" />
       <item itemvalue="Application.SnowFlake" />
+      <item itemvalue="JUnit.ResultCodeEnumTest.testApiResult" />
+      <item itemvalue="JUnit.ResultCodeEnumTest.testResultCodeEnum" />
+      <item itemvalue="JUnit.SnowFlakeTest.test" />
+      <item itemvalue="Spring Boot.EasyShopApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -191,6 +182,7 @@
       <workItem from="1649605227332" duration="138000" />
       <workItem from="1649605392893" duration="23000" />
       <workItem from="1653492231590" duration="3187000" />
+      <workItem from="1653919400734" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="[Update] Perfected upload path">
       <created>1649175333734</created>
